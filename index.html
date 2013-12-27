@@ -1,77 +1,88 @@
 <!DOCTYPE html>
 <html>
+
   <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <title>Wurfelengine by Cbeed</title>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Wurfel Engine : An isometric game engine for games with a world made of blocks (like Minecraft). For RPGs, action, strategy, puzzle or adventure games." />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Wurfel Engine</title>
   </head>
 
   <body>
-    <div id="container">
-      <div class="inner">
 
-        <header>
-          <h1>Wurfelengine</h1>
-          <h2>An isometric game engine for games with a world made of blocks (like Minecraft). For RPGs, action, strategy, puzzle or adventure games.</h2>
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/Cbeed/Wurfel-Engine">View on GitHub</a>
+
+          <h1 id="project_title">Wurfel Engine</h1>
+          <h2 id="project_tagline">An isometric game engine for games with a world made of blocks (like Minecraft). For RPGs, action, strategy, puzzle or adventure games.</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/Cbeed/Wurfel-Engine/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/Cbeed/Wurfel-Engine/tarball/master">Download this project as a tar.gz file</a>
+            </section>
         </header>
+    </div>
 
-        <section id="downloads" class="clearfix">
-          <a href="https://github.com/Cbeed/Wurfelengine/zipball/master" id="download-zip" class="button"><span>Download .zip</span></a>
-          <a href="https://github.com/Cbeed/Wurfelengine/tarball/master" id="download-tar-gz" class="button"><span>Download .tar.gz</span></a>
-          <a href="https://github.com/Cbeed/Wurfelengine" id="view-on-github" class="button"><span>View on GitHub</span></a>
-        </section>
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
+<a name="wurfelengine-v11" class="anchor" href="#wurfelengine-v11"><span class="octicon octicon-link"></span></a>Wurfelengine V1.1</h1>
 
-        <hr>
+<p><img src="http://wurfelengine.net/images/logo_medium.png" alt="Wurfelengine logo"></p>
 
-        <section id="main_content">
-          <h1>
-<a name="wurfelengine" class="anchor" href="#wurfelengine"><span class="octicon octicon-link"></span></a>Wurfelengine</h1>
-
-<p>Wurfelengine is a 2.5D isometric Java game engine build with Slick (soon: libgdx).
+<p>Wurfelengine is a 2.5D isometric Java block world game engine build with the support of libGDX.
 The name comes from the german word for cube (Würfel).</p>
 
-<p><img src="https://f.cloud.github.com/assets/1787847/870933/750c2e70-f83a-11e2-8de3-4c19958e1801.png" alt="Wurfelengine logo"></p>
+<p>Version 1.1. introduce many new features and bugfixes.</p>
+
+<p>If you want to use the engine take a look at the <a href="https://github.com/Cbeed/Wurfel-Engine/wiki">wiki</a>.</p>
 
 <h3>
 <a name="the-goal" class="anchor" href="#the-goal"><span class="octicon octicon-link"></span></a>The Goal</h3>
 
 <ol>
-<li>Provide a normal open source game engine because open source games are always geek games (often in ASCII)</li>
-<li>An easy engine for strategy or adventure games</li>
+<li>Provide a "normal" open source game engine because open source games are always geek games (e.g with ASCII output).</li>
+<li>An easy engine for strategy or adventure games.</li>
 <li>Minecraft is hip, so are blocks.</li>
 </ol><h3>
 <a name="features" class="anchor" href="#features"><span class="octicon octicon-link"></span></a>Features</h3>
 
-<pre><code>Open Source:
-    Well commented
-    Clean code: no geeky code with strange indent and names
-    No licensing costs
-Cross-platform (Windows, Mac, Linux)
-Map Streaming: make maps as big as you want like in Minecraft
-Three Dimensions: make maps with high buildings or deep dungeons
-Map editor: free &amp; included
-Fast: Wurfelengine renders only what is visible 
-Easy: look at our examples (soon) how easy it is to build a small game
-</code></pre>
+<ul>
+<li>Free: No licensing costs</li>
+<li>Open Source:
 
-<p>Visit the official website:
+<ul>
+<li>Well documented</li>
+<li>Clean code: no geeky code with strange indent and names</li>
+</ul>
+</li>
+<li>Cross-platform (Windows, Mac, Linux, Android (in work))</li>
+<li>Map Streaming: make maps as big as you want like in Minecraft or Skyrim</li>
+<li>Three Dimensions: make maps with high buildings or deep dungeons</li>
+<li>Map editor: free &amp; included</li>
+<li>Fast: Wurfelengine renders only what is visible </li>
+<li>Easy: look at our examples (at wurfelengine.net) how easy it is to build a small game</li>
+<li>Small: The engine is currently under 5 MB file size (+5 MB libGDX)</li>
+</ul><p>Visit the official website:
 <a href="http://www.wurfelengine.net">http://www.wurfelengine.net</a></p>
-        </section>
-
-        <footer>
-          Wurfelengine is maintained by <a href="https://github.com/Cbeed">Cbeed</a><br>
-          This page was generated by <a href="http://pages.github.com">GitHub Pages</a>. Tactile theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.
-        </footer>
-
-        
-      </div>
+      </section>
     </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Wurfel Engine maintained by <a href="https://github.com/Cbeed">Cbeed</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
   </body>
 </html>
